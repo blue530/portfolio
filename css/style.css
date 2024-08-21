@@ -85,10 +85,21 @@ body {
 
 /* video
 ================================================*/
- #video_wrap{
-    width: 100%; height: 970px; overflow: hidden;margin: 0px auto; position: relative;
+#video_wrap{
+    width: 100%;
+    height: 970px;
+    overflow: hidden;
+    margin: 0px auto;
+    position: relative;
 }
-video { position: absolute;left: 50%; margin-left: -960px;} 
+video { 
+    position: absolute;
+    left: 50%;
+    margin-left: -960px;}
+
+/* position:absolute; */
+video { 
+    left: 50%; margin-left: -960px } 
 
 /* preloader */
 ==================================================*/
